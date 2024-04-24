@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario!</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="bg-danger">
+    <div class="container d-flex" style="align-items: center; justify-content: center; margin-top: 3em;">
+        <div class="card bg-dark d-flex" style="width: 35rem; height: 40rem;">
+            <h1 style="color: white; text-align: center;">Formulario</h1>
+            <form class="container">
+                <div class="col-md-20">
+                    <label for="validationCustomUsername" class="form-label" style="color: white;">1- Qual o seu nome?</label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend" style="width: 8em;">Primeiro nome</span>
+                        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                        </div>
+                    </div>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend" style="width: 8em; margin-top: 8px;">Segundo nome</span>
+                        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required style="margin-top: 8px;">
+                        <div class="invalid-feedback">
+                        </div>
+                    </div>
+                    <p style="color: white; margin-top: 8px; margin-bottom: 1px;">2- Qual o seu genêro?</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault1" style="color: white;">
+                          Homem
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault1" style="color: white;">
+                          Mulher
+                        </label>
+                      </div>
+                    <p style="color: white; margin-top: 8px;">3- Marque os treinamentos que você fez</p>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault" style="color: white;">ITA</label>
+                    </div>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault" style="color: white;">ESA</label>
+                    </div>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault" style="color: white;">IME</label>
+                    </div>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault" style="color: white;">ENEM</label>
+                    </div>
+                    <p style="color: white; margin-top: 8px;">4- Quais são suas qualidades?</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                        <label class="form-check-label" for="flexCheckIndeterminate" style="color: white;">
+                          É legal
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                        <label class="form-check-label" for="flexCheckIndeterminate" style="color: white;">
+                          É inteligente..
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                        <label class="form-check-label" for="flexCheckIndeterminate" style="color: white;">
+                          Sabe inglês
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                        <label class="form-check-label" for="flexCheckIndeterminate" style="color: white;">
+                          oi
+                        </label>
+                    </div>
+                </div>
+                <div class="container d-flex d-flex" style="justify-content: center;">
+                    <button type="button" class="btn btn-outline-danger" style="margin-top: 25px;">Enviar</button>
+                </div>
+              </form>
+          </div>
+        </div>
+        <footer style="text-align: center; margin-top: 100px; color: white;">
+            <p> - Feito por rafael - </p>
+        </footer>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
